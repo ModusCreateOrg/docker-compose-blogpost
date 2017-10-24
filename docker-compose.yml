@@ -13,6 +13,7 @@ services:
       - .:/home/app
     ports:
       - 8000:8000
+      - 5858:5858
     depends_on:
       - mongodb
     environment:
