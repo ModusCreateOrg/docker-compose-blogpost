@@ -14,8 +14,6 @@ services:
     ports:
       - 8000:8000
       - 5858:5858
-    depends_on:
-      - mongodb
     environment:
       - LISTEN_ADDRESS=0.0.0.0
       - LISTEN_PORT=8000
