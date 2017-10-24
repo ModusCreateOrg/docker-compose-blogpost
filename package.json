@@ -1,0 +1,31 @@
+{
+  "name": "docker-compose-blogpost",
+  "version": "1.0.0",
+  "description": "Example docker-compose app for Modus Create blog post",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mschwartz/docker-compose-blogpost.git"
+  },
+  "keywords": [
+    "docker",
+    "docker-compose"
+  ],
+  "author": "Mike Schwartz (mike@moduscreate.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mschwartz/docker-compose-blogpost/issues"
+  },
+  "homepage": "https://github.com/mschwartz/docker-compose-blogpost#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
