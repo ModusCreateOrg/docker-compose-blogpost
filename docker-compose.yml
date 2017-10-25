@@ -11,6 +11,7 @@ services:
     command: ["npm", "start"]
     volumes:
       - .:/home/app
+      - /home/app/node_modules
     ports:
       - 8000:8000
       - 5858:5858
